@@ -1,0 +1,59 @@
+<nav class="navbar bg-white fixed-top navbar-expand-md navbar-light shadow">
+    <div class="container py-1">
+    <a class="navbar-brand" href="{{ .Site.BaseURL }}{{.Site.Language.Lang}}"><img src="{{ $.Site.BaseURL }}img/logo.jpg" alt="Logo: Canadian Scholarship Trust Plan" class="nav-logo"></a>
+        <div class="desktopmenu d-flex align-items-end">
+          {{ range .Site.Menus.main -}}
+            <a class="nav-item nav-link uppercase" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+            {{ end }}
+            <div class="translate">
+            {{ if .IsTranslated }}
+            {{ range .Translations }}
+              {{ if eq .Site.Language.Lang "en" }}
+            <a class="nav-item nav-link uppercase" title="English" href="{{ .RelPermalink }}">EN</a>
+              {{ else }}
+            <a class="nav-item nav-link uppercase" title="French" href="{{ .RelPermalink }}">FR</a>
+              {{ end }}
+            {{ end }}
+          {{ else }}
+            {{ if eq .Site.Language.Lang "fr" }}
+            <li><a class="nav-item nav-link uppercase" title="English" href="/en">EN</a></li>
+            {{ else }}
+            <li><a class="nav-item nav-link uppercase" title="French" href="/">EN</a></li>
+            {{ end }}
+          {{ end }}
+        </div>
+        </div>
+        
+<!-- Mobile Menu -->
+<div class="menu-wrap">
+  <input type="checkbox" class="toggler">
+
+  <div class="hamburger"><div></div></div>
+  <div class="menu">
+    <div>
+      <div>
+        <ul>
+          {{ range .Site.Menus.main -}}
+          <li><a class="nav-item nav-link" href="{{ .URL | absLangURL }}">{{ .Name }}</a></li>
+          {{ end }}
+          {{ if .IsTranslated }}
+            {{ range .Translations }}
+              {{ if eq .Site.Language.Lang "en" }}
+            <li><a class="nav-item nav-link" title="English" href="{{ .RelPermalink }}">EN</a></li>
+              {{ else }}
+            <li><a class="nav-item nav-link" title="French" href="{{ .RelPermalink }}">FR</a></li>
+              {{ end }}
+            {{ end }}
+          {{ else }}
+            {{ if eq .Site.Language.Lang "fr" }}
+            <li><a class="nav-item nav-link" title="English" href="/en">EN</a></li>
+            {{ else }}
+            <li><a class="nav-item nav-link" title="French" href="/">FR</a></li>
+            {{ end }}
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+</nav>

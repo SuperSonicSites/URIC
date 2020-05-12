@@ -1,0 +1,25 @@
+<script type="application/ld+json" defer> {
+    "@context" : "http://schema.org",
+    "@type" : "{{ $.Site.Params.type }}",
+    "telephone":"{{ $.Site.Params.phone }}",
+    "image": "{{ $.Site.Params.image }}",
+    "address" : {
+        "@type": "PostalAddress",
+        "addressLocality": "{{ $.Site.Params.city }}",
+        "addressRegion": "{{ $.Site.Params.region }}",
+        "postalCode": "{{ $.Site.Params.postalcode }}",
+        "streetAddress": "{{ $.Site.Params.address }}" 
+    },
+    "name":"{{.Site.Title}}",
+    "url":"{{.Site.BaseURL}}",
+    "email":"{{ $.Site.Params.email }}",
+    "openingHours": [
+    "{{ $.Site.Params.openinghour }}"],
+    "aggregateRating":{
+    "@type":"AggregateRating",
+    "ratingValue":"{{ $.Site.Params.reviewvalue }}",
+    "reviewCount":"{{ $.Site.Params.reviewcount }}"},
+    "priceRange":"{{ $.Site.Params.pricerange }}",
+    "paymentAccepted":"Visa, Master Card, Amex"
+    }
+</script>

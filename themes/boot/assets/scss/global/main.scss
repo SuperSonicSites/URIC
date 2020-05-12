@@ -1,0 +1,135 @@
+
+.thankyou {
+    height: 85vh;
+
+}
+.translate {
+    background-color: #222;
+    padding: 0px;
+    transition-duration: 300ms;
+}
+.translate:hover {
+    background-color: white;
+}
+.translate a {
+color: white;
+}
+.translate:hover a {
+    color: #222;
+}
+.bg-black {
+    background-color: #222;
+}
+.bg-brand {
+    background-color: $brand-color;
+}
+.credit {
+    padding-top: 20px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid white;
+    text-align: left;
+}
+.hours {
+    list-style: none;
+    padding-left: 0px;
+}
+.nav-link {
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+}
+.nav-link:hover {
+    color: $brand-color;
+}
+.nav-logo {
+    max-width: 55px;
+}
+.navbar-brand {
+    padding: 8px 13px;
+}
+.brand-color {
+    color: $brand-color !important;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.overlay {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.45);
+}
+.subheader {
+    background-image: url(/img/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: initial;;
+    height: 400px;
+    padding-top: 45px;
+}
+.bg-footer {
+    background-color: #333;
+}
+.fill-brand {
+    fill: $brand-color;
+    width: 28px;
+    height: 28px;
+}
+.fill-brand:hover {
+    fill: white;
+}
+.carousel-indicators li {
+    background-color: $brand-color;
+}
+.sub-content {
+    position: absolute;
+    top: 48%;
+    color: white;
+}
+.divider {
+    margin: 65px auto;
+    height: 1px;
+    background-color: $brand-color;
+    width: 50%;
+}
+h1,h2,h3,h4 {
+    font-family: "Montserrat";
+    font-weight: 400 !important;
+}
+.footer__highlight u {
+    color: white !important;
+}
+.footer__highlight u:hover {
+    color: $brand-color !important;
+}
+@media only screen and (max-width: 768px)  {
+    .sub-content {
+        padding-left: 3% !important;
+    }
+    section {
+        padding-left: 3% !important;
+        padding-right: 3% !important;
+    }
+    .credit {
+        text-align: center;
+    }
+    .footer__links {
+        text-align: center;
+    }
+    .footer__box {
+        padding: 0 20px 40px 20px;
+    }
+    .subheader {
+        background-image: url(/img/hero.jpg);
+        background-position: bottom;
+        background-size: cover;
+        background-attachment: initial;
+        height: 350px;
+    }
+    .businessquote {
+        font-size: 40px;
+    }
+}

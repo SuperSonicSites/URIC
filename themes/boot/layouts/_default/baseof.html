@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+    <head>
+    {{- partial "meta.html" . -}}
+    {{- partial "schema.html" . -}}
+    {{- partial "head.html" . -}}
+    <!--{{ template "_internal/google_analytics.html" . }} -->
+    </head>
+    <body>
+        {{- partial "preloader.html" . -}}
+        {{- partial "nav.html" . -}}
+        {{- partial "header.html" . -}}
+        <div id="content">
+        <a alt="Scroll to top" href="#" id="scroll" style="display: none;"><span></span></a>
+        {{- block "main" . }}{{- end }}
+        </div>
+        {{- partial "footer.html" . -}}
+    </body>
+</html>
+
+

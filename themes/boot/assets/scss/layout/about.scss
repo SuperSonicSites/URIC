@@ -1,0 +1,30 @@
+.home__about--desc {
+    padding: 0 25px 25px 25px;
+}
+.about__services--box {
+    min-height: 200px;
+}
+.about-h2 {
+    font-size: 34px;
+}
+@media only screen and (max-width: 768px)  {
+    .about__section {
+        padding: 0 25px !important;
+    }
+    .about__skills {
+        padding: 0 0px !important;
+    }
+    .about-h2 {
+        font-size: 28px;
+    }
+    .about-name {
+        text-align: left !important;
+        margin-bottom: 25px;
+    }
+    .home__about--desc {
+        padding: 0px;
+    }
+    .home__about--img {
+        padding: 0px;
+    }
+}

@@ -1,0 +1,60 @@
+<section class="bg-brand py-8">
+    <div class="container">
+    <h3 class="text-white display-4 text-center text-uppercase businessquote">{{ $.Site.Params.greatquote }}</h3>
+</div>
+</div>
+</section>   
+<footer class="bg-black">
+    <section class="footer__links container text-white pt-8">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 pb-1">
+                <div class="footer__box">
+                <h3 class="pb-1">{{ $.Site.Params.businessname }}</h3>
+                <p>{{ i18n "tagline" }}</p>
+                <a href="{{ $.Site.Params.facebookurl}}" class="socialicon">
+                <svg class="fill-brand">
+                    <use xlink:href="{{ $.Site.BaseURL }}img/brands.svg#facebook-square"></use>
+                  </svg>
+                </a>
+            </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 pb-1">
+                <div class="footer__box">
+                <h3 class="pb-1">Contact</h3>
+                <address>
+                    {{ $.Site.Params.address }}<br>
+                    {{ $.Site.Params.city }}, {{ $.Site.Params.region }}<br>
+                    {{ $.Site.Params.postalcode }},{{ $.Site.Params.country }}<br>
+                    </address>
+                    <strong>{{ i18n "phone" }}:</strong>
+                    <a class="footer__highlight" href="tel:{{ $.Site.Params.phone }}"><u>{{ $.Site.Params.phone }}</u></a><br>
+                    <strong>{{ i18n "email" }}:</strong>
+                    <a class="footer__highlight" href="mailto:{{ $.Site.Params.email }}"><u>{{ $.Site.Params.email }}</u></a>
+            </div>
+        </div>
+            <div class="col-lg-4 col-md-4 col-sm 12 pb-1">
+                <div class="footer__box">
+                <h3 class="pb-1">{{ i18n "hours" }}</h3>
+                <ul class="hours">
+                <li class="pt-1"><strong>{{ i18n "appointment" }}</strong></li>
+                <li class="pt-1">Mon - Fri <strong>9:00-21:00</strong></li>
+                <li class="pt-1">Sat - <strong>9:00-21:00</strong></li>
+                <li class="pt-1">Sun - <strong>9:00-21:00</strong></li>
+                </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </section>
+    <div class="container">
+        <div class="text-white credit">
+            <div><span>{{ i18n "credit" }} </span><span><a class="footer__highlight" href="https://www.supersonicsites.com"><u>Super Sonic Sites</u></a>&nbsp</span> <span>- Copyright © {{ dateFormat "2006" now }}</span> <span class="float-right"><a href="/privacy-policy">Politique de Confidentialité</a></span></div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="{{ $.Site.BaseURL }}js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous" async></script>
+    {{ $scripts := resources.Get "js/bootstrap.bundle.min.js" }}
+    <script type="text/javascript" src="{{ ($scripts | minify | fingerprint).RelPermalink }}" async></script>
+</footer>

@@ -1,0 +1,102 @@
+DefaultContentLanguage = "fr"
+baseURL = "https://www.magalieseabrooke.ca/"
+theme = "boot"
+relativeURLs = true
+googleAnalytics = "UA-165627404-1" # Your Analytics ID here
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+
+[languages]
+  [languages.fr]
+    title = "Magalie Seabrooke: Consultante en REEE avec CST"
+    description = "Magalie Seabrooke, Consultante CST aide les familles à maximiser sans risques le REEE de leur enfant(s)."
+    weight = 1
+    languageCode = "fr-ca"
+    contentDir = "content/fr"
+    name = "fr"
+    greatquote = "Obtenir Une Éducation, C'Est Aller De L'Avant"
+
+
+    [[languages.fr.menu.main]]
+        name = "Accueil"
+        url = "/"
+        weight = 1
+
+    [[languages.fr.menu.main]]
+        name = "A Propos"
+        url = "/a-propos/"
+        weight = 2
+
+    [[languages.fr.menu.main]]
+        name = "REEE"
+        url = "/reee/"
+        weight = 3
+
+    [[languages.fr.menu.main]]
+        name = "Rendez-Vous"
+        url = "https://calendly.com/info-magresp"
+        weight = 4
+
+    [[languages.fr.menu.main]]
+        name = "Contact"
+        url = "/contact/"
+        weight = 5
+
+[languages.en]
+    title = "Magalie Seabrooke: RESP Scholarship Plan Consultant with CST"
+    description = "Magalie Seabrooke, CST Consultant helps families to safely maximize savings in their Registered Study Savings Plan (RESP)"
+    weight = 2
+    languageCode = "en-ca"
+    contentDir = "content/en"
+    name = "en"
+    greatquote = "Getting An Education Means Getting Ahead"
+    
+    [[languages.en.menu.main]]
+        name = "Home"
+        url = "https://www.magalieseabrooke.ca"
+        weight = 1
+    
+    [[languages.en.menu.main]]
+        name = "About"
+        url = "/about/"
+        weight = 2
+
+    [[languages.en.menu.main]]
+        name = "RESP"
+        url = "/resp/"
+        weight = 3
+
+    [[languages.en.menu.main]]
+        name = "Appointment"
+        url = "https://calendly.com/info-magresp"
+        weight = 4
+
+    [[languages.en.menu.main]]
+        name = "Contact"
+        url = "/contact/"
+        weight = 5
+
+[params]
+    # Schema Information
+    businessname = "Magalie Seabrooke"
+    type = "LocalBusiness" # Enter Your Type of business - schema.org
+    pricerange = "2" # Enter Your Price range 1 to 5
+    reviewcount = "5" # How many reviews you've got
+    reviewvalue = "4.5" # Average ratings on Yelp & Google
+    reservation = "false" # Do you accept reservations? Enter true or false
+    openinghour = "Mo-Fr 9:00-17:00" # Opening Hours
+    address = "167 Bach" # Enter Address Here
+    city = "Vaudreuil" # Enter City
+    region = "QC" # Enter State or Province Here
+    country = "Canada" #Enter Country Here
+    postalcode = "J7V 0M7" # Enter Postal Code
+    phone = "+1-514-831-2168" # Enter Phone Number
+    email = "info@magalieseabrooke.ca" # Enter Your Email
+    facebookurl = "http://m.me/magalie.seabrooke"
+    instagram = "https://instagram.com/"
+    logo = "img/logo.jpg"
+    image = "img/og.png" # Ideal 1200 x 630 for schema + og
+    alt = "Magalie Seabrooke CST Consultant"

@@ -1,0 +1,94 @@
+<section class="contact__form">
+  <div class="container py-8">
+    <div class="row" data-aos="fade-up" data-aos-duration="800">
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <div class="pr-3 contact__form--info text-left">
+          <h2 class="pb-2">{{ i18n "contactus" }}</h2>
+          <form id="contact-form" method="POST" action="https://usebasin.com/f/92b0deb4799d" role="form">
+  
+            <div class="messages"></div>
+    
+            <div class="controls">
+    
+              <div class="row">
+                <div class="col-md-6 col-sm-12">
+                  <div class="form-group">
+                    <label for="form_name">{{ i18n "firstname" }} *</label>
+                    <input id="form_name" type="text" name="name" class="form-control" required="required" data-error="Firstname is required.">
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
+                <div class="col-md-6  col-sm-12">
+                  <div class="form-group">
+                    <label for="form_lastname">{{ i18n "lastname" }} *</label>
+                    <input id="form_lastname" type="text" name="surname" class="form-control" required="required" data-error="Lastname is required.">
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 col-sm-12">
+                  <div class="form-group">
+                    <label for="form_email">{{ i18n "email" }} *</label>
+                    <input id="form_email" type="email" name="email" class="form-control"  required="required" data-error="Valid email is required.">
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                  <div class="form-group">
+                    <label for="form_phone">{{ i18n "phone" }}</label>
+                    <input id="form_phone" type="tel" name="phone" class="form-control" >
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <label for="form_message">Message *</label>
+                    <textarea id="form_message" name="message" class="form-control" rows="4" required data-error="Please,leave us a message."></textarea>
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <input type="submit" class="btn btn-primary btn-send" value="{{ i18n "send" }}">
+                </div>
+              </div>
+             
+            </div>
+    
+            </form>
+      </div>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-12 contact__form--info text-left">
+      <h2 class="pb-2">{{ i18n "contactdetail" }}</h2>
+      <div class="contact__detail">
+        <svg class="fill-brand pr-1">
+          <use xlink:href="{{ $.Site.BaseURL }}img/solid.svg#map-marker"></use>
+        </svg>
+         {{ $.Site.Params.address }}, {{ $.Site.Params.city }}, {{ $.Site.Params.region }}, {{ $.Site.Params.postalcode }}
+      </div>
+        <div class="contact__detail">
+          <svg class="fill-brand pr-1">
+            <use xlink:href="{{ $.Site.BaseURL }}img/solid.svg#phone"></use>
+          </svg>
+          <a href="tel:{{ $.Site.Params.phone }}">{{ $.Site.Params.phone }}</a>
+        </div>
+        <div class="contact__detail">
+          <svg class="fill-brand pr-1">
+            <use xlink:href="{{ $.Site.BaseURL }}img/solid.svg#envelope"></use>
+          </svg>
+          <a href="mailto:{{ $.Site.Params.email }}">{{ $.Site.Params.email }}</a>
+      </div>
+      <div class="contact__detail">
+        <svg class="fill-brand">
+          <a href="{{ $.Site.Params.facebookurl}}"><use xlink:href="{{ $.Site.BaseURL }}img/brands.svg#facebook-square"></use>
+        </svg></a>
+      </div>
+      <div class="map-wrapper">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22418.418027364456!2d-74.06348920997635!3d45.383073360066945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc948320e4b83e5%3A0xf26ffff1fdbfed99!2s167%20Rue%20Bach%2C%20Vaudreuil-Dorion%2C%20QC!5e0!3m2!1sen!2sca!4v1588692467891!5m2!1sen!2sca" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+    </div>
+      </div>
+    </div>
+  </section>  

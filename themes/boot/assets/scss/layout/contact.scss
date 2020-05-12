@@ -1,0 +1,26 @@
+.contact__form {
+    &--info {
+        text-align: center;
+        margin-bottom: 3.5rem;
+    }
+}
+.contact__detail {
+    padding: 15px 0;
+    border-top: 1px solid $brand-color;
+}
+.contact__detail a {
+    fill: $brand-color;
+}
+.contact__detail a:hover {
+    fill: black;
+}
+.map-wrapper {
+    filter: grayscale(100%);
+}
+@media only screen and (max-width: 768px)  {
+    .contact__form--info {
+        padding-top: 0px;
+        padding-right: 0px !important;
+        text-align: left;
+    }
+}
