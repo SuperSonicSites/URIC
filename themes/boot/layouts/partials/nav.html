@@ -5,23 +5,6 @@
           {{ range .Site.Menus.main -}}
             <a class="nav-item nav-link uppercase" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
             {{ end }}
-            <div class="translate">
-            {{ if .IsTranslated }}
-            {{ range .Translations }}
-              {{ if eq .Site.Language.Lang "en" }}
-            <a class="nav-item nav-link uppercase" title="English" href="{{ .RelPermalink }}">EN</a>
-              {{ else }}
-            <a class="nav-item nav-link uppercase" title="French" href="{{ .RelPermalink }}">FR</a>
-              {{ end }}
-            {{ end }}
-          {{ else }}
-            {{ if eq .Site.Language.Lang "fr" }}
-            <li><a class="nav-item nav-link uppercase" title="English" href="/en">EN</a></li>
-            {{ else }}
-            <li><a class="nav-item nav-link uppercase" title="French" href="/">EN</a></li>
-            {{ end }}
-          {{ end }}
-        </div>
         </div>
         
 <!-- Mobile Menu -->

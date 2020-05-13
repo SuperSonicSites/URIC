@@ -1,9 +1,8 @@
 ---
-title: "RESP"
-description: "Une description de notre entreprise"
-layout: resp
-keywords: "service keywords"
-slug: "resp"
+title: "Buy Our Rental Equipment"
+description: "Do you like the equipment you rented? We not only rent equipment but we sell any of the items we rent."
+layout: sales
+keywords: "Buy rental equipement, buy tools"
 img: "service3.jpg"
 heading: "About RESP"
 # SERVICES

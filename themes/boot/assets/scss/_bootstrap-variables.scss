@@ -1,5 +1,5 @@
 // Color system
-$brand-color:  #28a745 !default;
+$brand-color:  #d66a29 !default;
 
 $grid-breakpoints: (
   xs: 0,
@@ -22,6 +22,7 @@ $white: #ffffff;
 $black: #000000;
 $primary: $brand-color;
 $secondary: #43454d;
+$success: $brand-color;
 
 // Links
 $link-color: $primary;

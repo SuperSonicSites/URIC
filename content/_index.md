@@ -1,43 +1,43 @@
 ---
 layout: home
 # Meta Data
-title: "Home"
-description: "Magalie Seabrooke, CST Consultant helps families to safely maximize savings in their Registered Study Savings Plan (RESP)"
-keywords: "Magalie Seabrooke, RESP, CST Consultant"
+title: "Homepage"
+description: "With our professional-grade & well-stocked inventory, Ucluelet Rent-It Center offers tool rental, small and large equipment rental services for you to get the job done."
+keywords: "Tool rental, equipement rental, Ucluelet rent-it center"
 # Hero Section
-welcome: "Prepare to"
-h1: "Unlock the full potential of your RESP"
-lead: "With Magalie Seabrooke C.S.T Consultant"
-cta: "Make An Appointment"
-cta__link: "https://calendly.com/info-magresp"
+welcome: "Ucluelet Rent-It Center is"
+h1: "Here to Help You Get The Job Done"
+lead: "Professional-grade rental services since 2007"
+cta: "Our Services"
+cta__link: "/services"
 # Service Section
-h2: "Save Without Risking Your Capital"
-subhead2: "When it comes to your children’s future, no one wants to leave it to chance. For over 15 years, Magalie Seabrooke has been helping families navigate their options, maximize government grants, and protect their capital, thanks to the Canadian Scholarship Trust Foundation."
+h2: "A True One-Stop Shop For All Your Equipment Needs"
+subhead2: "We opened up the business to be a one-stop shop for any construction or renovation site servicing Ucluelet, Tofino, Ahousat and in between. We have a great variety of equipment for jobs big or small. <br></br>Fast in and out service so you can get the job done."
 
-h3: "WHY WORK WITH MAGALIE?"
-subhead3: "My mission with the Canadian Scholarship Trust Foundation is to help families reach their post-secondary education goals and help Canadian children remove financial barriers by using the government grants available to them."
+h3: "Do you like the equipment you rented?"
+subhead3: "We not only rent equipment but we sell any of the items we rent. Call us with your needs and we’ll give you the best price on new equipment sales."
 
 # SERVICES BOX SECTION
-service1: "Personalized Service"
-service1__desc: "From the first day until the day your child obtains a post-secondary diploma, Magalie and her team are there for you."
+service1: "Small & Big Tools"
+service1__desc: "All brands serviced. We also work on any air cooled equipment from lawn mowers to generators. We are an Authorized Makita & STIHL Sevice Centre."
 
-service2: "Guaranteed Capital"
-service2__desc: "We focus on long-term value by investing to protect your capital while achieving positive returns."
+service2: "Portable toilets"
+service2__desc: "Delivered right to your construction site, festivals, weddings, campgrounds. Do you need portable toilets? We have them."
 
-service3: "Tailor-Made Plan"
-service3__desc: "Magalie and her team will create a tailor-made savings program, open new avenues and help you throughout the process."
+service3: "Gravel Mart"
+service3__desc: "We offer quality topsoil and bark mulch. Sold by the yard, and you can pick up, or we deliver in Ucluelet, Tofino, and surrounding areas."
 
 # BENEFIT SECTION
-cta__link2: "about"
+cta__link2: "/sales"
 cta2: "Learn More"
 
 
 # TESTIMONIAL SECTION
-testimonial1: "Emily" # Name 
-testimonial1__desc: "When you meet Magalie, what becomes immediately clear is that she loves people and adores kids! As a part-time single mom, with limited RESP knowledge, I wasn’t sure what to expect. But Magalie put me at ease right away, and I soon felt like I was sitting down with a friend over coffee. She really listened to my concerns, challenges and goals and worked with me to find the best solution for my family." # Testimonial Content
+testimonial1: "Jamie Carson, Owner/Operator - Icon Developments Ltd" # Name 
+testimonial1__desc: "Fast, friendly, and reliable service with top-quality equipment. Great value for the service with an added bonus of being local. URIC is always there when we need them." # Testimonial Content
 
-testimonial2: "Renaud" # Name 
-testimonial2__desc: "What a gem! Magalie is more than a competent and knowledgeable person when it comes to RESPs. She looks at your situation and finds resources to help you get where you want to go. She is a connector, and one thing you know for sure is that she is going to do whatever it takes to help you save money for your children’s education"
+testimonial2: "Mike Baird Owner/Operator - Square One Developments Ltd" # Name 
+testimonial2__desc: "Great variety of equipment for jobs big or small. Fast in and out service. A great one-stop-shop for all of our construction needs."
 ---
 
 Eget dolor morbi non arcu risus quis varius quam quisque. Quam viverra orci sagittis eu volutpat odio facilisis. Dolor morbi non arcu risus quis. Iaculis nunc sed augue lacus viverra vitae. Cras sed felis eget velit aliquet sagittis id consectetur. Laoreet id donec ultrices tincidunt.

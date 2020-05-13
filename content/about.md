@@ -1,8 +1,8 @@
 ---
-title: "About Magalie Seabrooke | RESP Consultant with C.S.T"
-description: "Learn more about Magalie Seabrooke and the Canadian Scholarship Trust Plan."
+title: "About Us, Our Team and Our Mission"
+description: "Learn more about us, the founders, the team and the vision behind the Ucluelet Rent-it Center."
 layout: about
-keywords: "Magalie Seabrooke, CST"
+keywords: "about, Ucluelet Rent-It Center"
 heading: "About"
 # About Section
 about1__heading: "Passionatly Helping Families"
