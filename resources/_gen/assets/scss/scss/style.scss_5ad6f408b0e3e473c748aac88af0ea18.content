@@ -10881,6 +10881,9 @@ h1 {
 .about-h2 {
   font-size: 34px; }
 
+.team-pic {
+  max-width: 250px; }
+
 @media only screen and (max-width: 768px) {
   .about__section {
     padding: 0 25px !important; }

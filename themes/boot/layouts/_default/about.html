@@ -8,61 +8,20 @@
     </div>
   </div>
 </header>
-<section class="container mt-8 mb-3 about__section">
+<section class="container py-8 about__section">
+  <h2 class="uppercase">Who We Are</h2>
+  <p class="pb-5">{{.Params.whoweare | safeHTML }}</p>
   <div class="row">
-    <div class="col-lg-4 col-md-4 col-sm-12 home__about--img">
-        <img src="{{ $.Site.BaseURL }}img/about-img.jpg" alt="Image de Magalie Seabrooke Consultante avec CST" class="img-fluid img-thumbnail mb-2" data-aos="fade-right" data-aos-duration="800">
-        <p class="text-center lead about-name">{{.Params.name1}}</p>
+    <div class="col-lg-6 col-sm-12">
+      <img src="{{ $.Site.BaseURL }}img/about-img.jpg" alt="Mayco Noel - Co-Owner and Partner" class="img-fluid d-flex justify-content-center img-thumbnail team-pic mb-2" data-aos="fade-right" data-aos-duration="800">
+      <p class="text-left lead about-name">{{.Params.name1}}</p>
+      <p class="text-left">{{.Params.about1__desc | safeHTML}}</p>
     </div>
-    <div class="col-lg-8 col-md-8 col-sm-12 home__about--desc">
-      <h2 class="display-4 about-h2 uppercase">{{.Params.about1__heading}}</h2>
-      <p>{{.Params.about1__desc | safeHTML}}</p>
-    </div>
-  </div>
-  <div class="row">
-    <p>{{.Params.about2__desc | safeHTML }}</p>
-  </div>
-</section>
-<section class="about__skills mt-0 pb-8">
-  <div class="container">
-  <div class="row">
-    <div class="col-lg-4 col-md-4 cols-sm-12 text-center my-3">
-      <div class="about__services--box shadow p-1 rounded" data-aos="fade-up" data-aos-duration="800">
-        <div class="about__services--textbox">
-          <h3 class="display-5 py-1">{{.Params.skill1}}</h3>
-          <p class="card-text services__descriptions p-1">{{.Params.skill1desc }}</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-lg-4 col-md-4 cols-sm-12 text-center my-3">
-      <div class="about__services--box shadow p-1 rounded" data-aos="fade-up" data-aos-duration="800"> 
-        <div class="about__services--textbox">
-          <h3 class="display-5 py-1">{{.Params.skill2}}</h3>
-          <p class="card-text services__descriptions p-1">{{.Params.skill2desc }}</p>
-          </div>
-      </div>
-    </div>
-    <div class="col-lg-4 col-md-4 cols-sm-12 text-center my-3">
-      <div class="about__services--box shadow p-1 rounded" data-aos="fade-up" data-aos-duration="800">
-        <div class="about__services--textbox">
-          <h3 class="display-5 py-1">{{.Params.skill3}}</h3>
-          <p class="card-text services__descriptions p-1">{{.Params.skill3desc }}</p>
-        </div>
-      </div>
+    <div class="col-lg-6 col-sm-12">
+      <img src="{{ $.Site.BaseURL }}img/about-img2.jpg" alt="Robby Lee - Co-Owner and Partner" class="img-fluid img-thumbnail team-pic mb-2" data-aos="fade-left" data-aos-duration="800">
+      <p class="text-left lead about-name">{{.Params.name2}}</p>
+      <p class="text-left">{{.Params.about2__desc | safeHTML}}</p>
     </div>
   </div>
-</div>
-</section>
-<section class="container mt-2 mb-3 about__section">
-<div class="row">
-  <div class="col-lg-4 col-md-4 col-sm-12 home__about--img">
-      <img src="{{ $.Site.BaseURL }}img/about-img2.jpg" alt="Image de CST" class="img-fluid img-thumbnail mb-2" data-aos="fade-right" data-aos-duration="800">
-  </div>
-  <div class="col-lg-8 col-md-8 col-sm-12 home__about--desc">
-    <h2 class="display-4 about-h2 uppercase">{{.Params.about3__heading}}</h2>
-    <p>{{.Params.about3__desc | safeHTML}}</p>
-    <a href="{{.Params.cta__link}}"><button class="btn btn-outline-dark btn-lg">{{ i18n "learnmore" }}</button></a>
-  </div>
-</div>
 </section>
 {{ end }}

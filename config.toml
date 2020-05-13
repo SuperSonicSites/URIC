@@ -20,7 +20,7 @@ description = "With our professional-grade & well-stocked inventory, Ucluelet Re
 
     [[menu.main]]
         name = "About"
-        url = "/about-us/"
+        url = "/about/"
         weight = 2
 
     [[menu.main]]
