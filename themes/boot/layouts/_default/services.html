@@ -7,27 +7,48 @@
       </div>
     </div>
   </div>
-</header>
+</header> 
 <section class="services container">
   <h2 class="pb-1 pt-8 uppercase">{{.Params.service1 | safeHTML}}</h2>
   <div class="row service-row">
     <div class="col-lg-6 col-md-6 col-sm-12 pr-3">
-      <p>{{.Params.service1_desc | safeHTML }}</p>
+	  <p>{{.Params.service1_desc | safeHTML }}</p>
+	  <a href="{{.Params.cta__link}}"><button class="btn btn-success btn-lg">{{.Params.cta}}</button></a>
     </div>
     <div class="col-lg-6 col-md-6 col-sm-12">
-      <img src="{{ $.Site.BaseURL }}img/{{.Params.img}}" alt="{{.Params.service1}}" class="img-fluid services__images shadow" data-aos="fade-up" data-aos-duration="800">
+      <img src="{{ $.Site.BaseURL }}img/{{.Params.service1_img}}" alt="{{.Params.service1}}" class="img-fluid services__images shadow" data-aos="fade-up" data-aos-duration="800">
     </div>
   </div>
-  <h2 class="pb-1 pt-2 uppercase">{{.Params.service2 | safeHTML}}</h2>
+  <h2 class="pb-1 pt-8 uppercase">{{.Params.service2 | safeHTML}}</h2>
   <div class="row service-row">
-    <div class="col-lg-12 col-md-12 col-sm-12 pr-3">
-      <p>{{.Params.service2_desc | safeHTML }}</p>
+	<div class="col-lg-6 col-md-6 col-sm-12 pr-3">
+		<p>{{.Params.service2_desc | safeHTML }}</p>
+		<a href="{{.Params.cta__link}}"><button class="btn btn-success btn-lg">{{.Params.cta}}</button></a>
 	</div>
-	<h2 class="pb-1 pt-2 uppercase">{{.Params.service3 | safeHTML}}</h2>
-	<div class="row service-row">
-	  <div class="col-lg-12 col-md-12 col-sm-12 pr-3">
-		<p>{{.Params.service3_desc | safeHTML }}</p>
+	  <div class="col-lg-6 col-md-6 col-sm-12">
+		<img src="{{ $.Site.BaseURL }}img/{{.Params.service2_img}}" alt="{{.Params.service2}}" class="img-fluid services__images shadow" data-aos="fade-up" data-aos-duration="800">
 	  </div>
+	</div>
+	<h2 class="pb-1 pt-8 uppercase">{{.Params.service3 | safeHTML}}</h2>
+	  <div class="row service-row">
+		<div class="col-lg-6 col-md-6 col-sm-12 pr-3">
+			<p>{{.Params.service3_desc | safeHTML }}</p>
+			<a href="{{.Params.cta__link}}"><button class="btn btn-success btn-lg">{{.Params.cta}}</button></a>
+		  </div>
+		  <div class="col-lg-6 col-md-6 col-sm-12">
+			<img src="{{ $.Site.BaseURL }}img/{{.Params.service3_img}}" alt="{{.Params.service3}}" class="img-fluid services__images shadow" data-aos="fade-up" data-aos-duration="800">
+		</div>
+		</div>
+	<h2 class="pb-1 pt-8 uppercase">{{.Params.service4 | safeHTML}}</h2>
+		<div class="row pb-8 service-row">
+		  <div class="col-lg-6 col-md-6 col-sm-12 pr-3">
+			  <p>{{.Params.service4_desc | safeHTML }}</p>
+			  <a href="{{.Params.cta__link}}"><button class="btn btn-success btn-lg">{{.Params.cta}}</button></a>
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-12">
+			  <img src="{{ $.Site.BaseURL }}img/{{.Params.service4_img}}" alt="{{.Params.service4}}" class="img-fluid services__images shadow" data-aos="fade-up" data-aos-duration="800">
+		  </div>
+		</div>		
 </section>
 <section class="container px-0 accordion-section clearfix mt-3 mb-8" aria-label="Question Accordions">
 	  <h2 class="pb-5 uppercase">{{ i18n "faq" }}</h2>

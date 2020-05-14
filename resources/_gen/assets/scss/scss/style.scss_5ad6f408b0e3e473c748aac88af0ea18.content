@@ -10942,7 +10942,7 @@ h1 {
 
 .accordion-section .panel-default .panel-title a {
   display: block;
-  font-size: 1.2rem; }
+  font-size: 1.4rem; }
 
 .collapsed {
   color: black !important; }
