@@ -1,0 +1,23 @@
+{{ define "main" }}
+<header class="subheader">
+  <div class="overlay">
+    <div class="container">
+      <div class="sub-content">
+        <h1 class="display-4 uppercase">{{.Params.heading}}</h1>
+      </div>
+    </div>
+  </div>
+</header> 
+<section class="services container">
+  <h2 class="pb-1 pt-8 uppercase">{{.Params.service1 | safeHTML}}</h2>
+  <div class="row pb-8 service-row">
+    <div class="col-lg-6 col-md-6 col-sm-12 pr-3">
+	  <p>{{.Params.service1_desc | safeHTML }}</p>
+	  <a href="{{.Params.cta__link}}"><button class="btn btn-success btn-lg">{{.Params.cta}}</button></a>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-12">
+      <img src="{{ $.Site.BaseURL }}img/{{.Params.sale_img}}" alt="{{.Params.service1}}" class="img-fluid services__images shadow" data-aos="fade-up" data-aos-duration="800">
+    </div>
+  </div>
+</section>
+{{ end }}

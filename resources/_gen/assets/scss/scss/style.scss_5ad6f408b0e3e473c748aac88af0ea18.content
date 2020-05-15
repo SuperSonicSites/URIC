@@ -10914,7 +10914,7 @@ h1 {
   fill: black; }
 
 .map-wrapper {
-  filter: grayscale(100%); }
+  filter: grayscale(50%); }
 
 @media only screen and (max-width: 768px) {
   .contact__form--info {
