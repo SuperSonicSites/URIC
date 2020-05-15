@@ -18,6 +18,6 @@ service1_desc: "We not only rent equipment but we sell any of the items we rent.
 Contact us with your needs and we’ll give you the best price on new equipment sales."
 
 cta: "Contact Us"
-cta_link: "/contact/"
+cta__link: "/contact/"
 sale_img: "sale1.jpg"
 ---
