@@ -1,7 +1,7 @@
 languageCode = "en-ca"
 baseURL = "/" #
 theme = "boot"
-relativeURLs = true
+relativeURLs = false
 googleAnalytics = "UA-165627404-2" # Your Analytics ID here
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
