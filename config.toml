@@ -1,5 +1,5 @@
 languageCode = "en-ca"
-baseURL = "https://www.uric.ca" #
+baseURL = "https://www.uric.ca/" #
 theme = "boot"
 relativeURLs = true
 googleAnalytics = "UA-165627404-2" # Your Analytics ID here
