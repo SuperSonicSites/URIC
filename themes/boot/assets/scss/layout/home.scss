@@ -71,8 +71,12 @@
     max-width: 200px !important;
     border-radius: 100%;
 }
+.testimonial-img {
+    border-radius: 100%;
+    max-width: 200px !important;
+}
 .carousel-item {
-    height: 300px !important;
+    height: 500px !important;
 }
 /* Responsive Home */
 @media only screen and (max-width: 768px)  {
@@ -116,7 +120,7 @@
         }
     }
     .carousel-item {
-        height: 360px !important;
+        height: 600px !important;
         max-width: 100%;
         padding-top: 40px !important;
         h3 {

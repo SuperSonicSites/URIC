@@ -39,13 +39,13 @@ service4_img: "service4.jpg"
 # FAQ
 ## Question 1
 question1: "What time are you open?"
-answer1: " 8-5 Monday to Friday"
+answer1: "We are open 8am-5pm Monday to Friday. Please leave a message if after hours and we will return your call."
 
 question2: "How much is soil/bark mulch?"
-answer2: "It is $96.50/yard"
+answer2: "We sell top quality clean soil and bark mulch, it is currently $96.50/yard."
 
 question3: "How much is a delivery of soil to Ucluelet or Tofino?"
-answer3: "We charge $35 to Ucluelet $105 to Tofino"
+answer3: "We charge a simple flat fee of $35 to Ucluelet and $105 to Tofino. Give us a call and we'll get your what you need."
 
 question4: "How will I be charged for a rental?"
 answer4: "We charge based on how long you have the rental. 4 hours, a day, a week or a month."

@@ -5,9 +5,9 @@ title: "Homepage"
 description: "With our professional-grade & well-stocked inventory, Ucluelet Rent-It Center offers tool rental, small and large equipment rental services for you to get the job done."
 keywords: "Tool rental, equipement rental, Ucluelet rent-it center"
 # Hero Section
-welcome: "Ucluelet Rent-It Center is"
+welcome: "Ucluelet Rent-It Center (URIC) is"
 h1: "Here to Help You Get The Job Done"
-lead: "Professional-grade rental services since 2007"
+lead: "URIC proudly offers professional-grade rental services to Ucluelet, Tofino and our neighbouring Communities."
 cta: "Our Services"
 cta__link: "/services"
 # Service Section

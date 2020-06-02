@@ -16,14 +16,12 @@ a:hover {
 }
 .accordion-section .panel-default .panel-title a:after {
     font-style: normal;
-    font-size: 25px;
+    font-size: 30px;
     content: "\0025B4";
-    color: white;
+    color: $brand-color;
     float: right;
     margin-top: 0px;
-    padding: 8px 14px 8px 14px;;
-    background-color: $brand-color;
-    border-radius: 100%;
+    background-color: transparent;
 }
 .accordion-section .panel-default .panel-title a.collapsed:after {
     content: "\0025BE";
@@ -46,13 +44,11 @@ a:hover {
     top: 30px;
     right: 10px;
     font-style: normal;
-    font-size: 15px;
+    font-size: 25px;
     content: "\0025B4";
-    color: white;
+    color: $brand-color;
     float: right;
     margin-top: 0px;
-    padding: 5px 8px 5px 8px;;
-    background-color: $brand-color;
-    border-radius: 100%;
+    background-color: transparent;
 }
 }

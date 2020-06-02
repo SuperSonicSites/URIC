@@ -5,7 +5,7 @@ layout: about
 keywords: "about, Ucluelet Rent-It Center"
 heading: "About"
 # Who We Are
-whoweare: "We are proudly locals who were born and raised in Ucluelet. We saw the need for a rental store in January of 2007 and we've opened for business. We recognized the need not only for a rental store but also a “Roll Off Service”. We appreciate both our local and out of town contractors with their continued support that has allowed us to grow. We take pride in offering a service based business and attempt to surpass you expectations."
+whoweare: "We are proud locals who were born and raised in Ucluelet. We saw the need for a rental store over a decade ago and opened for business. We recognized the need for not only a rental store but also a “Roll Off Service” and equipment sales. We truly appreciate our local and out of town contractors, West Coast residents and Families for their continued support that have allowed us to grow. We take pride in offering a family run service based business and are always striving to surpass your expectations."
 # About Section
 ## Team Member 1
 name1: "Mayco - Co-Owner" 

@@ -1,13 +1,13 @@
 ---
-title: "Buy Our Rental Equipment"
+title: "Sales & Parts"
 description: "Do you like the equipment you rented? We not only rent equipment but we sell any of the items we rent."
 layout: sales
 keywords: "sell equipment"
 img: "service3.jpg"
-heading: "Buy Our Rental Equipment"
+heading: "Sales & Parts"
 # SERVICES
-service1: "Do you like the equipment you rented?"
-service1_desc: "We not only rent equipment but we sell any of the items we rent.</br>
+service1: "Top Quality Equipment For Sale"
+service1_desc: "We not only rent equipment but we sell any of the items we rent and carry a full array of new equipment for purchase.</br>
 <ul>
 <li>Always on hand is a range of generators, pressure washers, water pumps, ladders, scaffolds, extension cords and more.</li>
 <li>We carry a full line of pressurewasher parts and accessories as well as a complete line of concrete drill bits, diamond blades.</li>
