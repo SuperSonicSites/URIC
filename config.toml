@@ -1,7 +1,7 @@
 languageCode = "en-ca"
-baseURL = "/" #
+baseURL = "https://www.uric.ca" #
 theme = "boot"
-relativeURLs = false
+relativeURLs = true
 googleAnalytics = "UA-165627404-2" # Your Analytics ID here
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
