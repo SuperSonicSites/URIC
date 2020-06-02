@@ -5,7 +5,7 @@
 }
 .accordion-section .panel-default .panel-title a {
     display: block;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 .collapsed {
     color: black !important;
@@ -21,7 +21,7 @@ a:hover {
     color: white;
     float: right;
     margin-top: 0px;
-    padding: 3px 14px 6px 14px;;
+    padding: 8px 14px 8px 14px;;
     background-color: $brand-color;
     border-radius: 100%;
 }
@@ -29,5 +29,30 @@ a:hover {
     content: "\0025BE";
 }
 .accordion-section .panel-default .panel-body {
-    font-size: 1.2rem;
+    font-size: 1rem;
+}
+@media only screen and (max-width: 768px)  {
+    .accordion-section .panel-default .panel-title a {
+        font-size: 1rem;
+}
+.accordion-section .panel-default .panel-body {
+    font-size: 1rem;
+}
+.panel {
+    position: relative;
+}
+.accordion-section .panel-default .panel-title a:after {
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    font-style: normal;
+    font-size: 15px;
+    content: "\0025B4";
+    color: white;
+    float: right;
+    margin-top: 0px;
+    padding: 5px 8px 5px 8px;;
+    background-color: $brand-color;
+    border-radius: 100%;
+}
 }

@@ -38,15 +38,21 @@ service4_img: "service4.jpg"
 
 # FAQ
 ## Question 1
-question1: "Question 1"
-answer1: "Answer 1"
+question1: "What time are you open?"
+answer1: " 8-5 Monday to Friday"
 
-question2: "Question 2"
-answer2: "Answer 2"
+question2: "How much is soil/bark mulch?"
+answer2: "It is $96.50/yard"
 
-question3: "Question 3"
-answer3: "Answer 3"
+question3: "How much is a delivery of soil to Ucluelet or Tofino?"
+answer3: "We charge $35 to Ucluelet $105 to Tofino"
 
-question4: "Question 4"
-answer4: "Answer 4"
+question4: "How will I be charged for a rental?"
+answer4: "We charge based on how long you have the rental. 4 hours, a day, a week or a month."
+
+question5: "Do we sell chains?"
+answer5: "Yes. Please email or call with the specs off your bar ( you must know the chain size and how many drivers for us to make the chain for you!)"
+
+question6: "Do we rent portables?"
+answer6: "Yes we do, for events or for construction or whatever you may need."
 --- 

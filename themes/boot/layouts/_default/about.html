@@ -3,7 +3,7 @@
   <div class="overlay">
     <div class="container">
       <div class="sub-content">
-        <h1 class="display-4 uppercase">{{.Params.heading}}</h1>
+        <h1 class="uppercase">{{.Params.heading}}</h1>
       </div>
     </div>
   </div>
@@ -13,7 +13,7 @@
   <p class="pb-2">{{.Params.whoweare | safeHTML }}</p>
   <div class="row">
     <div class="col-lg-4 col-sm-12 py-3">
-      <img src="{{ $.Site.BaseURL }}img/about-img.jpg" alt="Mayco Noel - Co-Owner and Partner" class="img-fluid d-flex justify-content-center img-thumbnail team-pic mb-2" data-aos="fade-right" data-aos-duration="800">
+      <img src="{{ $.Site.BaseURL }}img/about-img.jpg" alt="Mayco Noel - Co-Owner and Partner" class="img-fluid d-flex justify-content-center img-thumbnail team-pic mb-2" data-aos="fade-up" data-aos-duration="800">
       <p class="text-left lead about-name">{{.Params.name1}}</p>
       <p class="text-left">{{.Params.about1__desc | safeHTML}}</p>
     </div>
@@ -23,7 +23,7 @@
       <p class="text-left">{{.Params.about2__desc | safeHTML}}</p>
     </div>
     <div class="col-lg-4 col-sm-12 py-3">
-      <img src="{{ $.Site.BaseURL }}img/about-img2.jpg" alt="Robby Lee - Co-Owner and Partner" class="img-fluid img-thumbnail team-pic mb-2" data-aos="fade-left" data-aos-duration="800">
+      <img src="{{ $.Site.BaseURL }}img/about-img2.jpg" alt="Robby Lee - Co-Owner and Partner" class="img-fluid img-thumbnail team-pic mb-2" data-aos="fade-up" data-aos-duration="800">
       <p class="text-left lead about-name">{{.Params.name3}}</p>
       <p class="text-left">{{.Params.about3__desc | safeHTML}}</p>
     </div>

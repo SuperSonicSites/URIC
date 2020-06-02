@@ -8,7 +8,7 @@
     font-size: 34px;
 }
 .team-pic {
-    max-width: 250px;
+    width: 250px;
 }
 @media only screen and (max-width: 768px)  {
     .about__section {
@@ -29,5 +29,8 @@
     }
     .home__about--img {
         padding: 0px;
+    }
+    .team-pic {
+        width: 100%;
     }
 }

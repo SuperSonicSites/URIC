@@ -50,7 +50,7 @@
 		  </div>
 		</div>		
 </section>
-<section class="container px-0 accordion-section clearfix mt-3 mb-8" aria-label="Question Accordions">
+<section class="container accordion-section clearfix mt-3 mb-8" aria-label="Question Accordions">
 	  <h2 class="pb-5 uppercase">{{ i18n "faq" }}</h2>
 	  <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 		<div class="panel panel-default">
@@ -109,6 +109,36 @@
 			<div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
 			  <div class="panel-body px-3 pb-4">
 				<p>{{.Params.answer4 | safeHTML}}</p>
+			  </div>
+			</div>
+		  </div>
+
+		  <div class="panel panel-default">
+			<div class="panel-heading p-3 mb-3 shadow bg-white text-dark" role="tab" id="heading4">
+			  <h5 class="panel-title">
+				<a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="true" aria-controls="collapse4">
+			{{.Params.question5 | safeHTML}}
+				</a>
+			  </h5>
+			</div>
+			<div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4">
+			  <div class="panel-body px-3 pb-4">
+				<p>{{.Params.answer5 | safeHTML}}</p>
+			  </div>
+			</div>
+		  </div>
+
+		  <div class="panel panel-default">
+			<div class="panel-heading p-3 mb-3 shadow bg-white text-dark" role="tab" id="heading5">
+			  <h5 class="panel-title">
+				<a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="true" aria-controls="collapse5">
+			{{.Params.question6 | safeHTML}}
+				</a>
+			  </h5>
+			</div>
+			<div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5">
+			  <div class="panel-body px-3 pb-4">
+				<p>{{.Params.answer6 | safeHTML}}</p>
 			  </div>
 			</div>
 		  </div>

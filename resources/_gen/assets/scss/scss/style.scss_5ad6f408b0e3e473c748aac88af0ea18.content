@@ -10568,7 +10568,27 @@ h1 {
   .credit-box1 p {
     padding-left: 8px; }
 
+.responsiveWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 3px;
+  height: 0; }
+
+.responsiveWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
 @media only screen and (max-width: 768px) {
+  .display-4 {
+    font-size: 1.5rem !important; }
+  h2 {
+    font-size: 1.5rem; }
+  .display-5 {
+    font-size: 1.5rem !important; }
   .sub-content {
     padding-left: 3% !important; }
   section {
@@ -10610,8 +10630,8 @@ h1 {
 
 .menu-wrap .toggler {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 35px;
+  right: 10px;
   z-index: 2;
   cursor: pointer;
   width: 50px;
@@ -10620,8 +10640,8 @@ h1 {
 
 .menu-wrap .hamburger {
   position: absolute;
-  top: 10px;
-  right: 0;
+  top: 35px;
+  right: 10px;
   z-index: 1;
   width: 55px;
   height: 55px;
@@ -10882,7 +10902,7 @@ h1 {
   font-size: 34px; }
 
 .team-pic {
-  max-width: 250px; }
+  width: 250px; }
 
 @media only screen and (max-width: 768px) {
   .about__section {
@@ -10897,7 +10917,9 @@ h1 {
   .home__about--desc {
     padding: 0px; }
   .home__about--img {
-    padding: 0px; } }
+    padding: 0px; }
+  .team-pic {
+    width: 100%; } }
 
 .contact__form--info {
   text-align: center;
@@ -10942,7 +10964,7 @@ h1 {
 
 .accordion-section .panel-default .panel-title a {
   display: block;
-  font-size: 1.4rem; }
+  font-size: 1.2rem; }
 
 .collapsed {
   color: black !important; }
@@ -10958,7 +10980,7 @@ a:hover {
   color: white;
   float: right;
   margin-top: 0px;
-  padding: 3px 14px 6px 14px;
+  padding: 8px 14px 8px 14px;
   background-color: #d66a29;
   border-radius: 100%; }
 
@@ -10966,6 +10988,27 @@ a:hover {
   content: "\0025BE"; }
 
 .accordion-section .panel-default .panel-body {
-  font-size: 1.2rem; }
+  font-size: 1rem; }
+
+@media only screen and (max-width: 768px) {
+  .accordion-section .panel-default .panel-title a {
+    font-size: 1rem; }
+  .accordion-section .panel-default .panel-body {
+    font-size: 1rem; }
+  .panel {
+    position: relative; }
+  .accordion-section .panel-default .panel-title a:after {
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    font-style: normal;
+    font-size: 15px;
+    content: "\0025B4";
+    color: white;
+    float: right;
+    margin-top: 0px;
+    padding: 5px 8px 5px 8px;
+    background-color: #d66a29;
+    border-radius: 100%; } }
 
 /*# sourceMappingURL=style.css.map */
