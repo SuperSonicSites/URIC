@@ -16,6 +16,40 @@ We offer tool rentals and rental equipment from our wide selection of trusted, p
 If you have any questions about your specific project, we will help you choose the tools and equipment you’ll need and personally demonstrate the proper way to use them. Contact us before you start your project so we can get you the best prices and line up any equipment you may require."
 service1_img: "service1.jpg"
 
+equipmentlist: "
+- Air Compressors<br>
+- Air Tools & Accessories<br>
+- Augers<br>
+- Cement Drills & Breakers<br>
+- Chainsaws<br>
+- Compactors<br>
+- Concrete Equipment<br>
+- Coredrills<br>
+- Electric Tools<br>
+- Excavators<br>
+- Fans<br>
+- Floor Equipment<br>
+- Garden Equipment<br>
+- Generators<br>
+- Heaters<br>
+- High Lift Equipment<br>
+- Hoists<br>
+- Jacks<br>
+- Ladders<br>
+- Levels<br>
+- Lighting<br>
+- Loaders<br>
+- Paint Equipment<br>
+- Pipe Threaders<br>
+- Plumbing Equipment<br>
+- Power Washers<br>
+- Pumps<br>
+- Sanders<br>
+- Scaffold<br>
+- Traffic<br>
+- Trailers<br>
+- Trenchers<br>"
+
 ## Service 2
 service2: "Portable toilets"
 service2_desc: "If you are planning a one-day private reception, if you are in charge of organizing a festival or public event in a park, or if you are working on a construction site that is planned over a season, the Ucluelet Rent-It Center will help you accommodate your team’s needs the right way, with clean and easy-to-schedule sanitation solutions, so you can put your focus on making it a success. <br></br>

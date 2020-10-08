@@ -17,7 +17,26 @@
     </div>
     <div class="col-lg-6 col-md-6 col-sm-12">
       <img src="{{ $.Site.BaseURL }}img/{{.Params.service1_img}}" alt="{{.Params.service1}}" class="img-fluid services__images shadow" data-aos="fade-up" data-aos-duration="800">
-    </div>
+	  
+	  <div class="accordion-section clearfix mt-3 mb-8" aria-label="Question Accordions">
+	  <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+		<div class="panel panel-default">
+		  <div class="panel-heading p-3 my-3 shadow bg-white text-dark" role="tab" id="heading10">
+			<h5 class="panel-title">
+			  <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse10" aria-expanded="true" aria-controls="collapse10">
+				Type of Equipment Available
+			  </a>
+			</h5>
+		  </div>
+		  <div id="collapse10" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading10">
+			<div class="panel-body px-3 mb-4">
+			  <p>{{.Params.equipmentlist | safeHTML}}</p>
+			</div>
+		  </div>
+		</div>
+		</div></div>
+	
+	</div>
   </div>
   <h2 class="pb-1 pt-8 uppercase">{{.Params.service2 | safeHTML}}</h2>
   <div class="row service-row">
@@ -27,7 +46,8 @@
 	</div>
 	  <div class="col-lg-6 col-md-6 col-sm-12">
 		<img src="{{ $.Site.BaseURL }}img/{{.Params.service2_img}}" alt="{{.Params.service2}}" class="img-fluid services__images shadow" data-aos="fade-up" data-aos-duration="800">
-	  </div>
+	
+	</div>
 	</div>
 	<h2 class="pb-1 pt-8 uppercase">{{.Params.service3 | safeHTML}}</h2>
 	  <div class="row service-row">
