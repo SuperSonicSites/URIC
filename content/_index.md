@@ -19,7 +19,7 @@ subhead3: "We not only rent equipment but we sell any of the items we rent. Call
 
 # SERVICES BOX SECTION
 service1: "Small & Big Tools"
-service1__desc: "All brands serviced. We also work on any air cooled equipment from lawn mowers to generators. We are an Authorized Makita & STIHL Sevice Centre."
+service1__desc: "All brands serviced. We also work on any air cooled equipment from lawn mowers to generators."
 
 service2: "Portable toilets"
 service2__desc: "Delivered right to your construction site, festivals, weddings, campgrounds. Do you need portable toilets? We have them."

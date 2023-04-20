@@ -11,7 +11,7 @@ cta__link: "/contact"
 service1: "Tool Rental & Parts"
 service1_desc: "We’re here to help you with all of your tool rental needs. Our well-stocked inventory has everything necessary to get the job done right no matter what size project you decide to take on. From home renovation projects to big construction site, we've got you covered.
 <br></br>
-We offer tool rentals and rental equipment from our wide selection of trusted, professional-quality brands. From air powered tools to carpter cleaning, we have the tool you need at rental prices that suit your budget. <strong>We carry a full inventory of STIHL parts as well as a range of Honda and other generic parts.</strong>
+We offer tool rentals and rental equipment from our wide selection of trusted, professional-quality brands. From air powered tools to carpter cleaning, we have the tool you need at rental prices that suit your budget. 
 <br></br>
 If you have any questions about your specific project, we will help you choose the tools and equipment you’ll need and personally demonstrate the proper way to use them. Contact us before you start your project so we can get you the best prices and line up any equipment you may require."
 service1_img: "service1.jpg"
