@@ -57,13 +57,6 @@ If you have any questions about your specific project, we will help you with the
 service2_img: "service2.jpg"
 
 ## Service 3
-service3: "Gravel Mart"
-service3_desc: "We offer quality topsoil and bark mulch for your gardening or landscaping needs! We have a large, consistent selection and we re-stock on a regular basis.  Sold by the yard, and you can pick up, or we deliver in Ucluelet, Tofino, and surrounding areas.
-<br></br>
-If you have any questions about your specific project, we will help you with the logistic you’ll need.Contact us before you start your project so we can get you the best prices and line up any equipment you may require."
-service3_img: "service3.jpg"
-
-## Service 4
 service4: "Septic Services"
 service4_desc: "Septic tank pump-outs. From campgrounds to residential homes, our trucks can do it all. We tackle plugged storm drains, restaurant grease traps, portable toilets, the list goes on. In order to tell whether or not you need a septic pumping service, it’s good to keep a few of these signs in mind. Remember, maintenance service every three to five years could cost you a couple hundred dollars, but a sewer system replacement will cost you thousands!
 <br></br>
