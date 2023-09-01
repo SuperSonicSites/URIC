@@ -16,7 +16,7 @@
   <h2 class="home__services--heading display-5 text-center uppercase" data-aos="fade-up" data-aos-duration="800">{{.Params.h2}}</h2>
   <div class="lead home__services--subheading text-center pb-5" data-aos="fade-up" data-aos-duration="800">{{.Params.subhead2 | safeHTML }}</div>
   <div class="row">
-    <div class="col-lg-4 col-md-4 cols-sm-12 text-center my-3">
+    <div class="col-lg-6 col-md-6 cols-sm-12 text-center my-3">
       <div class="home__services--box shadow px-0 rounded">
         <img class="img-fluid" src="{{ $.Site.BaseURL }}img/service1.jpg" alt="Image de personne qui travaille ensemble sur les RESP/REEE">
         <div class="home__services--textbox">
@@ -25,22 +25,13 @@
         </div>
       </div>
     </div>
-    <div class="col-lg-4 col-md-4 cols-sm-12 text-center my-3">
+    <div class="col-lg-6 col-md-6 cols-sm-12 text-center my-3">
       <div class="home__services--box shadow px-0 rounded">
         <img class="img-fluid" src="{{ $.Site.BaseURL }}img/service2.jpg" alt="Image d'une banque">
         <div class="home__services--textbox">
           <h3 class="services__heading uppercase py-1">{{.Params.service2}}</h3>
           <p class="card-text services__descriptions p-1">{{.Params.service2__desc }}</p>
           </div>
-      </div>
-    </div>
-    <div class="col-lg-4 col-md-4 cols-sm-12 text-center my-3">
-      <div class="home__services--box shadow px-0 rounded">
-        <img class="img-fluid" src="{{ $.Site.BaseURL }}img/service3.jpg" alt="Image d'un arbre qui pousse a travers les epargnes">
-        <div class="home__services--textbox">
-          <h3 class="services__heading uppercase py-1">{{.Params.service3}}</h3>
-          <p class="card-text services__descriptions p-1">{{.Params.service3__desc }}</p>
-        </div>
       </div>
     </div>
   </div>
