@@ -7,13 +7,11 @@ img: "service3.jpg"
 heading: "Sales & Parts"
 # SERVICES
 service1: "Top Quality Equipment For Sale"
-service1_desc: "We not only rent equipment but we sell any of the items we rent and carry a full array of new equipment for purchase.</br>
+service1_desc: "
 <ul>
 <li>Always on hand is a range of generators, pressure washers, water pumps, ladders, scaffolds, extension cords and more.</li>
 <li>We carry a full line of pressurewasher parts and accessories as well as a complete line of concrete drill bits, diamond blades.</li>
 <li>Hilti shot nails are always on hand and in stock.</li>
-<li>Safety gear from eye protection to raingear, gloves and more.</li>
-<li>In stock is our weathershield ‘blown in’ insulation.</li>
 </ul>
 Contact us with your needs and we’ll give you the best price on new equipment sales."
 
