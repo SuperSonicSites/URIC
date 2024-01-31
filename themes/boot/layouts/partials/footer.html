@@ -51,7 +51,7 @@
                   <p>Handcrafted with ❤️ by <a href="https://www.supersonicsites.com/" class="origin">Supersonic Sites®</a></p>
             </div>
             <div>
-                <p>Copyright © {{ dateFormat "2006" now }}</p>
+                <p>Copyright © <span id="year"></span></p>
             </div>                
             </div>
             <div class="credit-box2">
@@ -81,3 +81,9 @@
     })(document);
 </script>
 </footer>
+<!-- Display Current Year in Footer -->
+<script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+        document.getElementById('year').textContent = new Date().getFullYear();
+    });
+</script>
