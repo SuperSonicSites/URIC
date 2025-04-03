@@ -38,6 +38,11 @@ description = "With our professional-grade & well-stocked inventory, Ucluelet Re
         url = "/contact/"
         weight = 5
 
+    [[menu.main]]
+        name = "RENT NOW"
+        url = "https://uric.ezrentalstore.com"
+        weight = 6
+
 
 [params]
     # Schema Information
