@@ -50,22 +50,22 @@ color: white;
   vertical-align: middle;
   cursor: pointer;
   user-select: none;
-  border: 1px solid transparent;
+  border: 1px solid transparent !important;
   transition: color 0.15s ease-in-out, 
               background-color 0.15s ease-in-out, 
               border-color 0.15s ease-in-out, 
               box-shadow 0.15s ease-in-out;
 
   /* Success button colors (.btn-success) */
-  color: #ffffff;
-  background-color: #d66a29;
-  border-color: #d66a29;
+  color: #ffffff  !important;
+  background-color: #d66a29  !important;
+  border-color: #d66a29  !important;
 
   /* Large button sizing (.btn-lg) */
-  padding: 0.5rem 1rem;
-  font-size: 1.25rem;
-  line-height: 1.5;
-  border-radius: 0.15rem;
+  padding: 0.5rem 1rem  !important;
+  font-size: 1.25rem  !important;
+  line-height: 1.5  !important;
+  border-radius: 0.15rem  !important;
 }
 
 .nav-logo {
