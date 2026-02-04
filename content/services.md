@@ -51,10 +51,11 @@ equipmentlist: "
 - Trenchers<br>"
 
 ## Service 2
-service2: "Portable toilets"
-service2_desc: "If you are planning a one-day private reception, if you are in charge of organizing a festival or public event in a park, or if you are working on a construction site that is planned over a season, the Ucluelet Rent-It Center will help you accommodate your team’s needs the right way, with clean and easy-to-schedule sanitation solutions, so you can put your focus on making it a success. <br></br>
-If you have any questions about your specific project, we will help you with the logistic you’ll need.Contact us before you start your project so we can get you the best prices and line up any equipment you may require."
-service2_img: "service2.jpg"
+service2: "Portable Washrooms"
+service2_desc: "If you are planning a one-day private reception, if you are in charge of organizing a festival or public event in a park, or if you are working on a construction site that is planned over a season, the Ucluelet Rent-It Center will help you accommodate your team's needs the right way, with clean and easy-to-schedule sanitation solutions, so you can put your focus on making it a success. <br></br>
+<strong>NEW: Double Unit Trailer & Single Unit Washrooms!</strong> We now offer premium portable washrooms featuring stainless steel sinks, mirrors, and modern interiors. Perfect for weddings, special events, and upscale construction sites.<br></br>
+Contact us before you start your project so we can get you the best prices and line up any equipment you may require."
+service2_img: "portable-toilet.png"
 
 ## Service 3
 service4: "Septic Services"
@@ -66,7 +67,7 @@ service4_img: "service4.jpg"
 # FAQ
 ## Question 1
 question1: "What time are you open?"
-answer1: "We are open 8am-4pm Monday to Friday. Please leave a message if after hours and we will return your call."
+answer1: "We are open 8AM-5PM Monday to Friday, and 9AM-3PM on Saturdays. Closed on Sundays. Please leave a message if after hours and we will return your call."
 
 question2: "How much is soil/bark mulch?"
 answer2: "We sell top quality clean soil and bark mulch, it is currently $96.50/yard."
