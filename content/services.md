@@ -52,10 +52,17 @@ equipmentlist: "
 
 ## Service 2
 service2: "Portable Washrooms"
-service2_desc: "If you are planning a one-day private reception, if you are in charge of organizing a festival or public event in a park, or if you are working on a construction site that is planned over a season, the Ucluelet Rent-It Center will help you accommodate your team's needs the right way, with clean and easy-to-schedule sanitation solutions, so you can put your focus on making it a success. <br></br>
-<strong>NEW: Double Unit Trailer & Single Unit Washrooms!</strong> We now offer premium portable washrooms featuring stainless steel sinks, mirrors, and modern interiors. Perfect for weddings, special events, and upscale construction sites.<br></br>
-Contact us before you start your project so we can get you the best prices and line up any equipment you may require."
+service2_desc: "<strong>NEW: Premium Double Unit Trailer Washrooms!</strong> Our new portable washrooms feature stainless steel sinks, mirrors, and modern interiors. Perfect for weddings, special events, festivals, and upscale construction sites.<br></br>
+These premium facilities provide a step above traditional portable toilets, offering your guests or team a comfortable and hygienic experience.<br></br>
+Contact us to reserve these premium facilities for your next event or project."
 service2_img: "portable-toilet.png"
+
+## Service 3
+service3: "Portable Toilet"
+service3_desc: "Reliable single unit portable toilet rentals for construction sites, outdoor events, and temporary needs. Our portable toilets are cleaned and serviced regularly to ensure a hygienic experience.<br></br>
+Whether you're hosting a community event, managing a construction project, or planning a campground setup, we have the portable sanitation solutions you need.<br></br>
+Easy delivery and pickup across Ucluelet, Tofino, and surrounding areas. Contact us for competitive pricing."
+service3_img: "service2.jpg"
 
 ## Service 3
 service4: "Septic Services"

@@ -19,13 +19,13 @@ subhead3: "We not only rent equipment but we sell any of the items we rent. Call
 
 # SERVICES BOX SECTION
 service1: "Small & Big Tools"
-service1__desc: "All brands serviced. We also work on any air cooled equipment from lawn mowers to generators."
+service1__desc: "All brands serviced. We also work on any air cooled equipment from lawn mowers to generators. Rentals available daily, weekly, or monthly."
 
 service2: "Portable Washrooms"
 service2__desc: "NEW: Double unit trailer & single unit washrooms now available! Premium portable facilities for construction sites, festivals, weddings, and campgrounds."
 
-service3: "Gravel Mart"
-service3__desc: "We offer quality topsoil and bark mulch. Sold by the yard, and you can pick up, or we deliver in Ucluelet, Tofino, and surrounding areas."
+service3: "Portable Toilet"
+service3__desc: "Reliable single unit portable toilet rentals for construction sites, outdoor events, and temporary needs. Easy delivery and pickup across Ucluelet, Tofino, and surrounding areas."
 
 # BENEFIT SECTION
 cta__link2: "/sales"
