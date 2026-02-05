@@ -10449,6 +10449,92 @@ a.text-dark:hover, a.text-dark:focus {
 .invisible {
   visibility: hidden !important; }
 
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #222;
+  /* Matches bg-black theme */ }
+
+/* Ozzard Top Banner Styling */
+.ozzard-top-banner {
+  position: relative;
+  /* Scrolls with page, pushes content down */
+  width: 100%;
+  background-color: #ffffff;
+  color: #333;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  z-index: 10001;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 15px;
+  border-bottom: 1px solid #e5e7eb; }
+
+.ozzard-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%; }
+
+.ozzard-link {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  text-decoration: none !important;
+  color: #333 !important;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.ozzard-link:hover, .ozzard-link:visited, .ozzard-link:active {
+  color: #333 !important;
+  text-decoration: none !important; }
+
+.ozzard-logo-img {
+  height: 48px;
+  /* Adjusted height for better visibility */
+  width: auto;
+  object-fit: contain; }
+
+.ozzard-msg {
+  font-weight: 400;
+  color: #333 !important; }
+
+.ozzard-cta {
+  font-weight: 700;
+  text-decoration: underline;
+  color: #333 !important; }
+
+.ozzard-close {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  font-size: 24px;
+  line-height: 1;
+  cursor: pointer;
+  color: #666 !important;
+  padding: 0 0 0 15px;
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  appearance: none;
+  -webkit-appearance: none;
+  margin: 0; }
+
+.ozzard-close:hover {
+  color: #000; }
+
+@media (max-width: 768px) {
+  .ozzard-link {
+    gap: 5px;
+    flex-direction: column;
+    text-align: center;
+    padding-right: 20px; }
+  .ozzard-msg {
+    display: none;
+    /* Hide tagline on very small screens to save space */ } }
+
 .thankyou {
   height: 85vh; }
 
@@ -10493,6 +10579,9 @@ a.text-dark:hover, a.text-dark:focus {
 
 .nav-logo {
   max-width: 125px; }
+
+.navbar {
+  position: relative; }
 
 .navbar-brand {
   padding: 8px 13px; }
@@ -10623,7 +10712,7 @@ h1 {
 
 /* MENU STYLES */
 .menu-wrap {
-  position: fixed;
+  position: absolute;
   top: 0;
   right: 0;
   z-index: 1; }

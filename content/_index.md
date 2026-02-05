@@ -14,12 +14,11 @@ cta__link: "/services"
 h2: "A True One-Stop Shop For All Your Equipment Needs"
 subhead2: "We opened up the business to be a one-stop shop for any construction or renovation site servicing Ucluelet, Tofino, Ahousat and in between. We have a great variety of equipment for jobs big or small. <br></br>Fast in and out service so you can get the job done."
 
-h3: "Do you like the equipment you rented?"
-subhead3: "We not only rent equipment but we sell any of the items we rent. Call us with your needs and we’ll give you the best price on new equipment sales."
+
 
 # SERVICES BOX SECTION
 service1: "Small & Big Tools"
-service1__desc: "All brands serviced. We also work on any air cooled equipment from lawn mowers to generators. Rentals available daily, weekly, or monthly."
+service1__desc: "Rentals available daily, weekly, or monthly. From handheld tools, to generators, compactors and heavy equipment, we have a wide variety of items available to support all your construction and at home projects."
 
 service2: "Portable Washrooms"
 service2__desc: "NEW: Double unit trailer & single unit washrooms now available! Premium portable facilities for construction sites, festivals, weddings, and campgrounds."
@@ -27,9 +26,7 @@ service2__desc: "NEW: Double unit trailer & single unit washrooms now available!
 service3: "Portable Toilet"
 service3__desc: "Reliable single unit portable toilet rentals for construction sites, outdoor events, and temporary needs. Easy delivery and pickup across Ucluelet, Tofino, and surrounding areas."
 
-# BENEFIT SECTION
-cta__link2: "/sales"
-cta2: "Learn More"
+
 
 
 # TESTIMONIAL SECTION
