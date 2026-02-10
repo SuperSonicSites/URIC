@@ -70,6 +70,7 @@ Features at a glance:
 <li><strong>Secure:</strong> Lockable door with key.</li>
 </ul>"
 service_skid_img: "single-washroom-skid.png"
+service_skid_img2: "single-washroom-inside.jpg"
 
 ## Service 3
 service3: "Portable Toilet"

@@ -46,7 +46,7 @@
 	</div>
 	  <div class="col-lg-6 col-md-6 col-sm-12">
 		<!-- Portable Washrooms Image Carousel -->
-		<div id="washroomCarouselServices" class="carousel slide shadow" data-ride="carousel" data-aos="fade-up" data-aos-duration="800">
+		<div id="washroomCarouselServices" class="carousel slide shadow mb-4" data-ride="carousel" data-aos="fade-up" data-aos-duration="800">
 		  <ol class="carousel-indicators">
 			<li data-target="#washroomCarouselServices" data-slide-to="0" class="active"></li>
 			<li data-target="#washroomCarouselServices" data-slide-to="1"></li>
@@ -73,12 +73,34 @@
 	</div>
   <h2 class="pb-1 pt-8 uppercase">{{.Params.service_skid | safeHTML}}</h2>
   <div class="row service-row pb-8 align-items-center">
-	<div class="col-lg-5 col-md-5 col-sm-12 pr-3">
+	<div class="col-lg-6 col-md-6 col-sm-12 pr-3">
 		{{.Params.service_skid_desc | safeHTML }}
 		<a href="{{.Params.cta__link}}"><button class="btn btn-success btn-lg">{{.Params.cta}}</button></a>
 	</div>
-	<div class="col-lg-7 col-md-7 col-sm-12 text-right">
-		<img src="{{ $.Site.BaseURL }}img/{{.Params.service_skid_img}}" alt="{{.Params.service_skid}}" class="img-fluid services__images shadow" data-aos="fade-up" data-aos-duration="800">
+	<div class="col-lg-6 col-md-6 col-sm-12">
+		<!-- Single Washroom Skid Image Carousel -->
+		<div id="washroomSkidCarousel" class="carousel slide shadow mb-4" data-ride="carousel" data-aos="fade-up" data-aos-duration="800">
+		  <ol class="carousel-indicators">
+			<li data-target="#washroomSkidCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#washroomSkidCarousel" data-slide-to="1"></li>
+		  </ol>
+		  <div class="carousel-inner">
+			<div class="carousel-item active">
+			  <img class="d-block w-100 img-fluid services__images service-slider-img" src="{{ $.Site.BaseURL }}img/{{.Params.service_skid_img}}" alt="{{.Params.service_skid}}">
+			</div>
+			<div class="carousel-item">
+			  <img class="d-block w-100 img-fluid services__images service-slider-img" src="{{ $.Site.BaseURL }}img/{{.Params.service_skid_img2}}" alt="{{.Params.service_skid}} Interior">
+			</div>
+		  </div>
+		  <a class="carousel-control-prev" href="#washroomSkidCarousel" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		  </a>
+		  <a class="carousel-control-next" href="#washroomSkidCarousel" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		  </a>
+		</div>
 	</div>
   </div>
   <h2 class="pb-1 pt-8 uppercase">{{.Params.service3 | safeHTML}}</h2>
