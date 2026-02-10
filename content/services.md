@@ -57,6 +57,20 @@ These premium facilities provide a step above traditional portable toilets, offe
 Contact us to reserve these premium facilities for your next event or project."
 service2_img: "portable-toilet.png"
 
+## Service Skid
+service_skid: "Single portable washroom skid"
+service_skid_desc: "<strong>Compact, efficient, and built for the job.</strong> Our single portable washroom skid is the perfect solution for sites where space is premium but comfort is non-negotiable. Designed for durability and ease of use, this unit offers a superior alternative to standard portable toilets.<br><br>
+Features at a glance:
+<ul>
+<li><strong>Durable Construction:</strong> Aluminum 48” x 50” x 99” unit built to withstand the elements.</li>
+<li><strong>Power Ready:</strong> External 110V power inlet for easy hookup.</li>
+<li><strong>Comfort Controlled:</strong> Hardwired exhaust fan and 500W wall-mounted heater for year-round comfort.</li>
+<li><strong>Smart Lighting:</strong> Motion-sensor LED interior light and exhaust fan, plus an external LED light for safety.</li>
+<li><strong>Fully Equipped:</strong> Includes soap dispenser, toilet paper holder, and paper towel holder.</li>
+<li><strong>Secure:</strong> Lockable door with key.</li>
+</ul>"
+service_skid_img: "single-washroom-skid.png"
+
 ## Service 3
 service3: "Portable Toilet"
 service3_desc: "Reliable single unit portable toilet rentals for construction sites, outdoor events, and temporary needs. Our portable toilets are cleaned and serviced regularly to ensure a hygienic experience.<br></br>

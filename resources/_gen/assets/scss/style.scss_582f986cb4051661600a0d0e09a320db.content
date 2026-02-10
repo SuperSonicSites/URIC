@@ -10997,6 +10997,10 @@ h1 {
   .services__images {
     margin-bottom: 25px; } }
 
+.service-slider-img {
+  height: 625px;
+  object-fit: cover; }
+
 .accordion-section .panel-default > .panel-heading {
   border: 0;
   background: #f4f4f4;
